@@ -17,7 +17,7 @@ export default class Container {
     this.mouseDown = this.mouseDown.bind(this);
     this.dragMove = this.dragMove.bind(this);
     this.mouseUp = this.mouseUp.bind(this);
-    this.drawSavedTasks = this.drawPushedCards.bind(this);
+    this.drawPushedCards= this.drawPushedCards.bind(this);
     this.showPossiblePlace = this.showPossiblePlace.bind(this);
   }
 
